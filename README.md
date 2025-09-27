@@ -15,7 +15,7 @@ A React application that analyzes how well your resume matches a job description
 
 ## Demo
 
-![Resume Analyzer Demo](public/demo.png)
+![Resume Analyzer Demo]
 
 ## Getting Started
 
@@ -123,3 +123,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [pdfjs-dist](https://mozilla.github.io/pdf.js/) for PDF text extraction
 - [Vite](https://vitejs.dev/) for the build tool
 - [Tailwind CSS](https://tailwindcss.com/) for styling
+
