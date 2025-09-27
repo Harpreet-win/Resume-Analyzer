@@ -1,14 +1,21 @@
-# Resume Match Analyzer
+# Resume Analyzer
+
+[![Deploy to GitHub Pages](https://github.com/Harpreet-win/Resume-Analyzer/actions/workflows/deploy.yml/badge.svg)](https://github.com/Harpreet-win/Resume-Analyzer/actions/workflows/deploy.yml)
 
 A React application that analyzes how well your resume matches a job description using AI-powered text analysis with Cohere.
 
 ## Features
 
-- Upload PDF or TXT resume files
-- Paste job descriptions
-- AI-powered analysis using Cohere API
-- Skills matching and suggestions
-- Match score percentage
+- 📄 Upload PDF or TXT resume files
+- 💼 Paste job descriptions
+- 🤖 AI-powered analysis using Cohere API
+- 🎯 Skills matching and suggestions
+- 📊 Match score percentage
+- 🌐 Deployable to GitHub Pages
+
+## Demo
+
+![Resume Analyzer Demo](public/demo.png)
 
 ## Getting Started
 
@@ -22,8 +29,8 @@ A React application that analyzes how well your resume matches a job description
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd resume-match-analyzer
+   git clone https://github.com/Harpreet-win/Resume-Analyzer.git
+   cd Resume-Analyzer
    ```
 
 2. Install dependencies:
@@ -76,14 +83,26 @@ If no API key is provided, the application will run in demo mode with mock data 
 - Vite (build tool)
 - Tailwind CSS (styling)
 - Cohere AI API
-- pdf-parse (PDF text extraction)
+- pdfjs-dist (PDF text extraction)
 
 ## Deployment
+
+### GitHub Pages
+
+This project is configured with a GitHub Actions workflow for automatic deployment to GitHub Pages:
+
+1. Fork this repository
+2. Go to Settings > Pages in your fork
+3. Select "GitHub Actions" as the source
+4. Push to your repository to trigger the deployment workflow
+
+The application will be available at: `https://[your-github-username].github.io/Resume-Analyzer/`
+
+### Other Hosting Services
 
 You can deploy the built application (from the `dist` folder after running `npm run build`) to any static hosting service like:
 - Vercel
 - Netlify
-- GitHub Pages
 - AWS S3
 
 ## Contributing
@@ -93,3 +112,14 @@ You can deploy the built application (from the `dist` folder after running `npm 
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Cohere](https://cohere.ai/) for providing the AI API
+- [pdfjs-dist](https://mozilla.github.io/pdf.js/) for PDF text extraction
+- [Vite](https://vitejs.dev/) for the build tool
+- [Tailwind CSS](https://tailwindcss.com/) for styling
