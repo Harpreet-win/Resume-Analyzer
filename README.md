@@ -1,6 +1,7 @@
 # Resume Analyzer
 
 ![ss](https://github.com/Harpreet-win/Resume-Analyzer/blob/7092771fb3a95d68e18ceddc5b2ea45703f6c9ae/Screenshot%202025-09-27%20221758.png)
+[▶️ Watch Demo](https://github.com/<username>/<repo>/blob/main/demo.mp4)
 
 A React application that analyzes how well your resume matches a job description using AI-powered text analysis with Cohere.
 
@@ -123,6 +124,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [pdfjs-dist](https://mozilla.github.io/pdf.js/) for PDF text extraction
 - [Vite](https://vitejs.dev/) for the build tool
 - [Tailwind CSS](https://tailwindcss.com/) for styling
+
 
 
 
